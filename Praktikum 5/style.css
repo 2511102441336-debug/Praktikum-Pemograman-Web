@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Ink:wght@100..900&family=Edu+QLD+Hand:wght@400..700&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+/* Reset dasar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "PT Sans", sans-serif;
+}
+
+/* Tampilan halaman */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1696d1;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Bagian Hero */
+.hero {
+    background: linear-gradient(135deg, #4facfe, #fe00e5);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 50px 20px;
+}
+
+/* Foto profil */
+.profile-img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid white;
+    margin-bottom: 20px;
+}
+
+/* Judul */
+.hero h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 17px;
+}
+
+/* Bagian Tentang Saya */
+.about {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: rgba(180, 26, 129, 0.215);
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.about h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #9c17b3;
+}
+
+.about p {
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+/* Bagian Portfolio */
+.portfolio {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 30px;
+}
+
+.portfolio h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #2196f3;
+}
+
+/* Container Card */
+.portfolio-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+/* Card proyek */
+.card {
+    background-color: rgba(207, 22, 188, 0.823);
+    width: 250px;
+    padding: 30px 20px;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+}
+
+/* Efek saat mouse diarahkan */
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Footer */
+footer {
+    background-color: #222;
+    color: rgb(85, 54, 88);
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+footer a {
+    color: #1383bc;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Tampilan HP */
+@media (max-width: 600px) {
+
+    .hero h1 {
+        font-size: 26px;
+    }
+
+    .hero p {
+        font-size: 15px;
+    }
+
+    .about,
+    .portfolio {
+        margin: 20px;
+        padding: 20px;
+    }
+
+    .card {
+        width: 100%;
+    }
+}

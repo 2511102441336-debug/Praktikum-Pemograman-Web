@@ -1,0 +1,70 @@
+/* display box */
+
+.box-1{
+    background: beige;
+    display: block;
+}
+
+.box-2{
+    background: brown; 
+    display: block;
+}
+
+.box-3{
+    background: lightskyblue;
+    display: block;
+}
+
+
+/* display inline*/
+nav ul li{
+    font-size: 20px;
+    display: inline;
+
+}
+
+/* display inline block */
+.box-4{
+    background: beige;
+    display: inline-block;
+}
+
+.box-5{
+    background: brown; 
+    display: inline-block;
+}   
+
+.box-6{
+    background: lightskyblue;
+    display: inline-block;
+}
+
+/* display flex */
+.container{
+    display: flex;
+    background: beige;
+    padding: 10px;
+}
+.flex-item{
+    background-color: brown;
+    color: white;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+    flex: 1;
+}
+
+/* display grid */
+.grid-container{
+    display: grid;
+    grid-template-columns: auto;
+    gap: 10px;
+}
+
+.grid-item{
+    background-color: rgb(1, 255, 255);
+    color: white;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
